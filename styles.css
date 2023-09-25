@@ -1,0 +1,63 @@
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/clouds.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center center;
+    font-family: 'Mooli', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.main_container {
+    background-color: rgb(243, 241, 237);
+    padding: 5.5em 2em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 1%;
+}
+
+header {
+    padding-bottom: 2em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    padding: 1em;
+}
+
+input {
+    margin: 1em;
+}
+
+button {
+   margin: 1em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(157, 151, 151);
+}
